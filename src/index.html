@@ -13,14 +13,13 @@
 
 <body>
 
-  <h2>Carta aleatoria</h2>
-
-  <div class="carta">?</div>
-
-  <button onclick="sacar()">Generar</button>
-
+  <div class="carta" id="carta">
+    <div class="arriba" id="palo-arriba"></div>
+    <div class="valor" id="valor"></div>
+    <div class="abajo" id="palo-abajo"></div>
   </div>
-  </div>
+
+  <button onclick="generarCarta()">Randomizer</button>
 
   <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
   <script type="module" src="/app.js"></script>
